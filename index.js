@@ -54,18 +54,25 @@ function contact(event) {
       );
     });
 }
-    let isModalOpen = false;
-    function toggleModal() {
-      window.scrollTo(0, 0);
-      if (isModalOpen) {
-        isModalOpen = false;
-        return document.body.classList.remove("modal--open");
+let isModalOpen = false;
 
-      }
-   isModalOpen = true;
-   document.body.classList += " modal--open";
-    }
-    
- 
+function toggleModal() {
+  isModalOpen = !isModalOpen;
+
+  if (isModalOpen) {
+    window.scrollTo(0, 0);
+    document.body.classList.add("modal--open");
+    document.body.style.overflow = "hidden";
+  } else {
+    document.body.classList.remove("modal--open");
+    document.body.style.overflow = "";
+  }
+}
+
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape" && isModalOpen) {
+    toggleModal();
+  }
+});
 
 

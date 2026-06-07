@@ -103,12 +103,17 @@
         <div class="scroll__icon click"></div>
       </a>
 
+      <div class="modal__backdrop click" onclick="toggleModal()"></div>
       <div class="modal">
+        <button
+          class="modal__close click"
+          type="button"
+          onclick="toggleModal()"
+          aria-label="Close modal"
+        >
+          <i class="fa-solid fa-xmark"></i>
+        </button>
         <div class="modal__half modal__about">
-          <i
-            class="fa-regular fa-circle-xmark modal__exit click"
-            onclick="toggleModal()"
-          ></i>
           <h3 class="modal__title modal__title--about">
             Here's a bit about me.
           </h3>
@@ -226,10 +231,6 @@
         </div>
 
         <div class="modal__half modal__contact">
-          <i
-            class="fa-regular fa-circle-xmark modal__exit click"
-            onclick="toggleModal()"
-          ></i>
           <h3 class="modal__title modal__title--contact">Let's have a chat!</h3>
           <h3 class="modal__sub-title modal__subtitle---contact">
             I am currently open to new opportunities.
@@ -356,7 +357,7 @@
             <li class="project">
               <div class="project__wrapper project__wrapper--featured">
                 <div class="project__placeholder">
-                  <div class="project__mockup mockup-portfolio">
+                  <div class="project__mockup mockup-portfolio mockup-portfolio--groove">
                     <div class="mockup__browser">
                       <span></span>
                       <span></span>
@@ -365,10 +366,10 @@
                     <div class="mockup-portfolio__hero">
                       <div>
                         <span></span>
-                        <strong>John Bass</strong>
-                        <p>Frontend Software Engineer</p>
+                        <strong>Groove Guardian</strong>
+                        <p>Spotify UI Clone</p>
                       </div>
-                      <i class="fa-solid fa-code"></i>
+                      <i class="fa-brands fa-spotify"></i>
                     </div>
                     <div class="mockup-portfolio__skills">
                       <span></span>
@@ -384,20 +385,28 @@
                 </div>
                 <div class="project__wrapper--background"></div>
                 <div class="project__description">
-                  <h3 class="project__description--title">Portfolio Website</h3>
+                  <h3 class="project__description--title">Groove Guardian</h3>
                   <h4 class="project__description--sub-title">
-                    HTML, CSS, JavaScript, GitHub, Vercel
+                    React, TypeScript, TanStack Start, Tailwind CSS
                   </h4>
                   <p class="project__description--para">
-                    A personal e-portfolio showcasing technical skills, project
-                    work, contact information, direct resume access, and a
-                    polished responsive design.
+                    A deployed Spotify-style streaming interface with playlists,
+                    recently played sections, playback controls, and responsive
+                    Tailwind styling on Vercel.
                   </p>
                   <div class="project__description--links">
-                    <a href="#" class="project__description--link">
+                    <a
+                      href="https://github.com/babyboy198331-coder/groove-guardian-kit.git"
+                      target="_blank"
+                      class="project__description--link"
+                    >
                       <i class="fa-brands fa-github"></i>
                     </a>
-                    <a href="#" class="project__description--link">
+                    <a
+                      href="https://groove-guardian-c0ahy8kty-babyboy198331-coders-projects.vercel.app"
+                      target="_blank"
+                      class="project__description--link"
+                    >
                       <i class="fa-solid fa-arrow-up-right-from-square"></i>
                     </a>
                   </div>
