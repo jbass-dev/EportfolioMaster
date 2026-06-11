@@ -8,7 +8,7 @@ export default function Projects() {
           </h1>
           <ul className="project__list">
 
-            {/* DeepSeek Clone */}
+            {/* ai-chat-interface */}
             <li className="project">
               <div className="project__wrapper">
                 <div className="project__placeholder project__placeholder--ai">
@@ -20,7 +20,7 @@ export default function Projects() {
                     </div>
                     <div className="mockup-ai__layout">
                       <div className="mockup-ai__sidebar">
-                        <strong>DeepSeek</strong>
+                        <strong>ai-chat-interface</strong>
                         <span></span>
                         <span></span>
                         <span></span>
@@ -36,7 +36,7 @@ export default function Projects() {
                 </div>
                 <div className="project__wrapper--background"></div>
                 <div className="project__description">
-                  <h3 className="project__description--title">DeepSeek Clone</h3>
+                  <h3 className="project__description--title">ai-chat-interface</h3>
                   <h4 className="project__description--sub-title">
                     Next.js, React, TypeScript, Tailwind CSS
                   </h4>
@@ -46,7 +46,7 @@ export default function Projects() {
                   </p>
                   <div className="project__description--links">
                     <a
-                      href="https://github.com/babyboy198331-coder/DeepSeek-Clone.git"
+                      href="https://github.com/babyboy198331-coder/ai-chat-interface.git"
                       target="_blank"
                       rel="noreferrer"
                       className="project__description--link"
@@ -54,7 +54,7 @@ export default function Projects() {
                       <i className="fa-brands fa-github"></i>
                     </a>
                     <a
-                      href="https://deep-seek-clone-wine.vercel.app"
+                      href="https://deep-seek-clone-wine.vercel.app/"
                       target="_blank"
                       rel="noreferrer"
                       className="project__description--link"
