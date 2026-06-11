@@ -830,6 +830,66 @@ label {
   text-align: right;
 }
 
+/* Skinstric mockup */
+.mockup-skinstric {
+  position: relative;
+  padding: 16px 18px;
+  background: #fcfcfc;
+  color: #1a1b1c;
+  overflow: hidden;
+}
+.mockup-skinstric .mockup__browser { margin: -16px -18px 0; }
+.mockup-skinstric__nav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-top: 14px;
+}
+.mockup-skinstric__nav strong { font-size: 11px; letter-spacing: -0.02em; }
+.mockup-skinstric__nav span { font-size: 9px; color: #9a9a9a; letter-spacing: 0.02em; }
+.mockup-skinstric__stage {
+  position: relative;
+  height: 190px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mockup-skinstric__diamond {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border: 1.5px dotted rgba(26, 27, 28, 0.28);
+  transform: rotate(45deg);
+}
+.mockup-skinstric__diamond--inner {
+  width: 115px;
+  height: 115px;
+  border-color: rgba(26, 27, 28, 0.45);
+  transform: rotate(58deg);
+}
+.mockup-skinstric__center { position: relative; text-align: center; z-index: 2; }
+.mockup-skinstric__center p {
+  font-size: 8px;
+  letter-spacing: 0.06em;
+  color: #b0b0b0;
+  margin-bottom: 4px;
+}
+.mockup-skinstric__center strong {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -0.04em;
+  border-bottom: 1px solid #1a1b1c;
+  padding-bottom: 2px;
+}
+.mockup-skinstric__corners {
+  display: flex;
+  justify-content: space-between;
+  font-size: 8px;
+  letter-spacing: 0.04em;
+  color: #1a1b1c;
+  padding-bottom: 2px;
+}
+
 /* Store mockup */
 .mockup-store { padding: 20px; background: #0d1117; color: #e6edf3; }
 .mockup-store__nav { display: flex; align-items: center; justify-content: space-between; margin-bottom: 18px; }
