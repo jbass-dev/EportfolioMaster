@@ -74,6 +74,61 @@ export default function Projects() {
               </div>
             </li>
 
+            {/* OfferBound */}
+            <li className="project">
+              <div className="project__wrapper project__wrapper--featured">
+                <div className="project__placeholder project__placeholder--dark">
+                  <div className="project__mockup mockup-ob">
+                    <div className="mockup__browser">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </div>
+                    <div className="mockup-ob__nav">
+                      <strong>Offer<em>Bound</em></strong>
+                      <span></span>
+                    </div>
+                    <div className="mockup-ob__stats">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </div>
+                    <div className="mockup-ob__rows">
+                      <span className="mockup-ob__row"></span>
+                      <span className="mockup-ob__row mockup-ob__row--amber"></span>
+                      <span className="mockup-ob__row mockup-ob__row--green"></span>
+                    </div>
+                  </div>
+                </div>
+                <div className="project__wrapper--background"></div>
+                <div className="project__description">
+                  <h3 className="project__description--title">OfferBound</h3>
+                  <h4 className="project__description--sub-title">
+                    React, Vite, Firebase Auth, Cloud Firestore
+                  </h4>
+                  <p className="project__description--para">
+                    An original job-application tracker I designed and built end
+                    to end — Google sign-in, per-user Firestore data secured by
+                    rules, a live stats dashboard with response rates, and
+                    automatic follow-up reminders. Deployed to production on
+                    Vercel.
+                  </p>
+                  <div className="project__description--links">
+                    <a
+                      href="https://offerbound.vercel.app"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="project__description--link"
+                      aria-label="OfferBound live site"
+                    >
+                      <i className="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+
             {/* NFT Marketplace */}
             <li className="project">
               <div className="project__wrapper project__wrapper--featured">

@@ -928,6 +928,19 @@ label {
 }
 .mockup-store__cta { width: 120px; height: 28px; margin-top: 14px; border-radius: 2px; background: var(--accent); opacity: 0.7; }
 
+/* OfferBound mockup */
+.mockup-ob { padding: 20px; background: #0f1115; color: #e9ecf1; }
+.mockup-ob__nav { display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; }
+.mockup-ob__nav strong { font-family: 'DM Mono', monospace; font-size: 12px; }
+.mockup-ob__nav strong em { color: #34d399; font-style: normal; }
+.mockup-ob__nav span { width: 84px; height: 20px; border-radius: 6px; background: #34d399; opacity: 0.75; }
+.mockup-ob__stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-bottom: 12px; }
+.mockup-ob__stats span { min-height: 44px; border-radius: 6px; background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.08); }
+.mockup-ob__rows { display: flex; flex-direction: column; gap: 8px; }
+.mockup-ob__row { min-height: 30px; border-radius: 6px; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.06); border-left: 3px solid #60a5fa; }
+.mockup-ob__row--amber { border-left-color: #fbbf24; }
+.mockup-ob__row--green { border-left-color: #34d399; }
+
 /* Cinema mockup */
 .mockup-cinema { padding: 20px; background: #0d0305; color: #fff; }
 .mockup-cinema__header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px; }
