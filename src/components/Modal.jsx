@@ -49,14 +49,14 @@ export default function Modal({ isOpen, onClose }) {
           <h3 className="modal__title modal__title--about">Here's a bit about me.</h3>
           <h4 className="modal__sub-title modal__sub-title--about">Frontend Software Engineer.</h4>
           <p className="modal__para">
-            I am studying{' '}
-            <b className="blue">Frontend development through Frontend Simplified.</b>{' '}
-            I am excited for this next chapter in my career.
+            I'm a builder by nature. Before code, I spent{' '}
+            <b className="blue">seven years managing an auto shop</b>{' '}
+            — work where precision and deadlines weren't optional.
             <br />
-            I am building a strong foundation in{' '}
-            <b className="blue">HTML, CSS, JavaScript, React, Next.js, and TypeScript</b>{' '}
-            while creating projects that focus on thoughtful layouts, clean code,
-            and useful user experiences.
+            Now I build responsive web apps with{' '}
+            <b className="blue">React, Next.js, and TypeScript</b>, including
+            an AI skin-analysis platform during my internship at Skinstric.
+            Clean code, pixel-perfect layouts, shipped on time.
           </p>
           <div className="modal__languages">
             {LANGUAGES.map((lang) => (
