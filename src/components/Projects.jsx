@@ -116,6 +116,15 @@ export default function Projects() {
                   </p>
                   <div className="project__description--links">
                     <a
+                      href="https://github.com/babyboy198331-coder/OfferBound"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="project__description--link"
+                      aria-label="OfferBound GitHub repository"
+                    >
+                      <i className="fa-brands fa-github" aria-hidden="true"></i>
+                    </a>
+                    <a
                       href="https://offerbound.vercel.app"
                       target="_blank"
                       rel="noreferrer"
