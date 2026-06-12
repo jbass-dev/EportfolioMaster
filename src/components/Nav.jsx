@@ -25,8 +25,13 @@ export default function Nav({ toggleModal, toggleContrast }) {
           </a>
         </li>
         <li className="nav__link" onClick={toggleContrast}>
-          <a href="#" className="nav__link--anchor link__hover-effect link__hover-effect--black">
-            <i className="fa-solid fa-circle-half-stroke"></i>
+          <a
+            href="#"
+            className="nav__link--anchor link__hover-effect link__hover-effect--black"
+            aria-label="Toggle dark mode"
+            onClick={(e) => e.preventDefault()}
+          >
+            <i className="fa-solid fa-circle-half-stroke" aria-hidden="true"></i>
           </a>
         </li>
       </ul>

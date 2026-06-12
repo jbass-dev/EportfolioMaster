@@ -5,7 +5,6 @@ import Hero from './components/Hero'
 import Projects from './components/Projects'
 import Footer from './components/Footer'
 import Modal from './components/Modal'
-import Shapes from './components/Shapes'
 
 export default function App() {
   const [isModalOpen, setIsModalOpen] = useState(false)
@@ -38,34 +37,24 @@ export default function App() {
     return () => document.removeEventListener('keydown', handleKeyDown)
   }, [isModalOpen])
 
-  function moveBackground(e) {
-    const shapes = document.querySelectorAll('.shape')
-    const factor = 1 / 20
-    const x = e.clientX * factor
-    const y = e.clientY * factor
-    shapes.forEach((shape, i) => {
-      const dir = i % 2 !== 0 ? -1 : 1
-      shape.style.transform = `translate(${x * dir}px, ${y * dir}px)`
-    })
-  }
-
   const openModal = () => setIsModalOpen(true)
   const closeModal = () => setIsModalOpen(false)
 
   return (
     <>
-      <section id="landing-page" onMouseMove={moveBackground}>
-        <Nav toggleModal={openModal} toggleContrast={() => setIsDark(d => !d)} />
-        <Hero toggleModal={openModal} />
-        <button className="mail__btn click" onClick={openModal}>
-          <i className="fa-regular fa-envelope"></i>
-        </button>
-        <a href="#projects" className="scroll">
-          <div className="scroll__icon click"></div>
-        </a>
-        <Shapes />
-      </section>
-      <Projects />
+      <main>
+        <section id="landing-page">
+          <Nav toggleModal={openModal} toggleContrast={() => setIsDark(d => !d)} />
+          <Hero toggleModal={openModal} />
+          <button className="mail__btn click" onClick={openModal} aria-label="Open contact form">
+            <i className="fa-regular fa-envelope" aria-hidden="true"></i>
+          </button>
+          <a href="#projects" className="scroll" aria-label="Scroll to projects">
+            <div className="scroll__icon click"></div>
+          </a>
+        </section>
+        <Projects />
+      </main>
       <Footer toggleModal={openModal} />
       <Modal isOpen={isModalOpen} onClose={closeModal} />
     </>

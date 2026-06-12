@@ -42,7 +42,7 @@ export default function Modal({ isOpen, onClose }) {
           onClick={onClose}
           aria-label="Close modal"
         >
-          <i className="fa-solid fa-xmark"></i>
+          <i className="fa-solid fa-xmark" aria-hidden="true"></i>
         </button>
 
         <div className="modal__half modal__about">
@@ -78,23 +78,23 @@ export default function Modal({ isOpen, onClose }) {
           </a>
           <form id="contact__form" ref={formRef} onSubmit={handleSubmit}>
             <div className="form__item">
-              <label className="form__item--label">Name</label>
-              <input className="input" name="user__name" type="text" />
+              <label className="form__item--label" htmlFor="contact__name">Name</label>
+              <input id="contact__name" className="input" name="user__name" type="text" />
             </div>
             <div className="form__item">
-              <label className="form__item--label">Email</label>
-              <input className="input" name="user__email" type="email" />
+              <label className="form__item--label" htmlFor="contact__email">Email</label>
+              <input id="contact__email" className="input" name="user__email" type="email" />
             </div>
             <div className="form__item">
-              <label className="form__item--label">Message</label>
-              <textarea className="input" name="message"></textarea>
+              <label className="form__item--label" htmlFor="contact__message">Message</label>
+              <textarea id="contact__message" className="input" name="message"></textarea>
             </div>
             <button id="contact__submit" className="form__submit">
               Send it my way
             </button>
           </form>
           <div className={`modal__overlay modal__overlay--loading${status === 'loading' ? ' modal__overlay--visible' : ''}`}>
-            <i className="fa-solid fa-spinner"></i>
+            <i className="fa-solid fa-spinner" aria-hidden="true"></i>
           </div>
           <div className={`modal__overlay modal__overlay--success${status === 'success' ? ' modal__overlay--visible' : ''}`}>
             Thanks for the message! Looking forward to speaking to you soon.

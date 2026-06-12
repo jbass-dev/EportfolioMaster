@@ -37,24 +37,27 @@ export default function Hero({ toggleModal }) {
           target="_blank"
           rel="noreferrer"
           className="social__link click"
+          aria-label="LinkedIn profile"
         >
-          <i className="fa-brands fa-linkedin"></i>
+          <i className="fa-brands fa-linkedin" aria-hidden="true"></i>
         </a>
         <a
           href="https://github.com/babyboy198331-coder"
           target="_blank"
           rel="noreferrer"
           className="social__link click"
+          aria-label="GitHub profile"
         >
-          <i className="fa-brands fa-github"></i>
+          <i className="fa-brands fa-github" aria-hidden="true"></i>
         </a>
         <a
           href="/Document.pdf"
           target="_blank"
           rel="noreferrer"
           className="social__link click"
+          aria-label="Resume (PDF)"
         >
-          <i className="fa-regular fa-file-pdf"></i>
+          <i className="fa-regular fa-file-pdf" aria-hidden="true"></i>
         </a>
       </div>
     </header>

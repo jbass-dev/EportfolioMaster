@@ -39,8 +39,7 @@ export default function Footer({ toggleModal }) {
               Email
             </a>
             <button
-              className="footer__social--link link__hover-effect link__hover-effect--white"
-              style={{ background: 'none', border: 'none', cursor: 'pointer', font: 'inherit', padding: 0 }}
+              className="footer__social--link footer__social--button link__hover-effect link__hover-effect--white"
               onClick={toggleModal}
             >
               Contact

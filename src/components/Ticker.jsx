@@ -11,6 +11,10 @@ const TECHS = [
   { src: '/assets/stripe.png', alt: 'Stripe', label: 'Stripe' },
   { src: '/assets/github.png', alt: 'GitHub', label: 'GitHub' },
   { src: '/assets/vercel.png', alt: 'Vercel', label: 'Vercel' },
+  { src: '/assets/vite.png', alt: 'Vite', label: 'Vite' },
+  { src: '/assets/react-router.png', alt: 'React Router', label: 'React Router' },
+  { src: '/assets/axios.png', alt: 'Axios', label: 'Axios' },
+  { src: '/assets/rest-api.png', alt: 'REST APIs', label: 'REST APIs' },
 ]
 
 function TickerItem({ src, alt, label }) {

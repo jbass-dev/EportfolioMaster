@@ -3,68 +3,10 @@ export default function Projects() {
     <section id="projects">
       <div className="container">
         <div className="row">
-          <h1 className="section__title">
+          <h2 className="section__title">
             Here are some of my <span className="blue">projects:</span>
-          </h1>
+          </h2>
           <ul className="project__list">
-
-            {/* ai-chat-interface */}
-            <li className="project">
-              <div className="project__wrapper">
-                <div className="project__placeholder project__placeholder--ai">
-                  <div className="project__mockup mockup-ai">
-                    <div className="mockup__browser">
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                    </div>
-                    <div className="mockup-ai__layout">
-                      <div className="mockup-ai__sidebar">
-                        <strong>ai-chat-interface</strong>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                      </div>
-                      <div className="mockup-ai__chat">
-                        <div className="mockup-ai__bubble mockup-ai__bubble--user"></div>
-                        <div className="mockup-ai__bubble"></div>
-                        <div className="mockup-ai__bubble mockup-ai__bubble--user" style={{ width: '55%' }}></div>
-                        <div className="mockup-ai__bubble" style={{ width: '70%' }}></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="project__wrapper--background"></div>
-                <div className="project__description">
-                  <h3 className="project__description--title">ai-chat-interface</h3>
-                  <h4 className="project__description--sub-title">
-                    Next.js, React, TypeScript, Tailwind CSS
-                  </h4>
-                  <p className="project__description--para">
-                    A deployed AI chat interface clone built with Next.js,
-                    modern React, TypeScript, and responsive Tailwind styling.
-                  </p>
-                  <div className="project__description--links">
-                    <a
-                      href="https://github.com/babyboy198331-coder/ai-chat-interface.git"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="project__description--link"
-                    >
-                      <i className="fa-brands fa-github"></i>
-                    </a>
-                    <a
-                      href="https://deep-seek-clone-wine.vercel.app/"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="project__description--link"
-                    >
-                      <i className="fa-solid fa-arrow-up-right-from-square"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </li>
 
             {/* Skinstric AI */}
             <li className="project">
@@ -114,16 +56,18 @@ export default function Projects() {
                       target="_blank"
                       rel="noreferrer"
                       className="project__description--link"
+                      aria-label="Skinstric AI GitHub repository"
                     >
-                      <i className="fa-brands fa-github"></i>
+                      <i className="fa-brands fa-github" aria-hidden="true"></i>
                     </a>
                     <a
                       href="https://skinstric-internship1.vercel.app"
                       target="_blank"
                       rel="noreferrer"
                       className="project__description--link"
+                      aria-label="Skinstric AI live site"
                     >
-                      <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                      <i className="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
                     </a>
                   </div>
                 </div>
@@ -168,71 +112,78 @@ export default function Projects() {
                       target="_blank"
                       rel="noreferrer"
                       className="project__description--link"
+                      aria-label="NFT Marketplace GitHub repository"
                     >
-                      <i className="fa-brands fa-github"></i>
+                      <i className="fa-brands fa-github" aria-hidden="true"></i>
                     </a>
                     <a
                       href="https://john-internship-sj1k.vercel.app"
                       target="_blank"
                       rel="noreferrer"
                       className="project__description--link"
+                      aria-label="NFT Marketplace live site"
                     >
-                      <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                      <i className="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
                     </a>
                   </div>
                 </div>
               </div>
             </li>
 
-            {/* IMDB Clone */}
+            {/* ai-chat-interface */}
             <li className="project">
-              <div className="project__wrapper project__wrapper--featured">
-                <div className="project__placeholder project__placeholder--cinema">
-                  <div className="project__mockup mockup-cinema">
+              <div className="project__wrapper">
+                <div className="project__placeholder project__placeholder--ai">
+                  <div className="project__mockup mockup-ai">
                     <div className="mockup__browser">
                       <span></span>
                       <span></span>
                       <span></span>
                     </div>
-                    <div className="mockup-cinema__header">
-                      <strong>IMDB Clone</strong>
-                      <span>Movies</span>
-                    </div>
-                    <div className="mockup-cinema__grid">
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                      <span></span>
+                    <div className="mockup-ai__layout">
+                      <div className="mockup-ai__sidebar">
+                        <strong>ai-chat-interface</strong>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                      </div>
+                      <div className="mockup-ai__chat">
+                        <div className="mockup-ai__bubble mockup-ai__bubble--user"></div>
+                        <div className="mockup-ai__bubble"></div>
+                        <div className="mockup-ai__bubble mockup-ai__bubble--user" style={{ width: '55%' }}></div>
+                        <div className="mockup-ai__bubble" style={{ width: '70%' }}></div>
+                      </div>
                     </div>
                   </div>
                 </div>
                 <div className="project__wrapper--background"></div>
                 <div className="project__description">
-                  <h3 className="project__description--title">IMDB Clone</h3>
+                  <h3 className="project__description--title">ai-chat-interface</h3>
                   <h4 className="project__description--sub-title">
                     Next.js, React, TypeScript, Tailwind CSS
                   </h4>
                   <p className="project__description--para">
-                    A deployed movie browsing app built with Next.js, modern
-                    React, responsive styling, and a production-ready Vercel
-                    workflow.
+                    A deployed AI chat interface clone built with Next.js,
+                    modern React, TypeScript, and responsive Tailwind styling.
                   </p>
                   <div className="project__description--links">
                     <a
-                      href="https://github.com/babyboy198331-coder/IMDB-CLONE.git"
+                      href="https://github.com/babyboy198331-coder/ai-chat-interface.git"
                       target="_blank"
                       rel="noreferrer"
                       className="project__description--link"
+                      aria-label="ai-chat-interface GitHub repository"
                     >
-                      <i className="fa-brands fa-github"></i>
+                      <i className="fa-brands fa-github" aria-hidden="true"></i>
                     </a>
                     <a
-                      href="https://imdb-clone-one-theta.vercel.app"
+                      href="https://deep-seek-clone-wine.vercel.app/"
                       target="_blank"
                       rel="noreferrer"
                       className="project__description--link"
+                      aria-label="ai-chat-interface live site"
                     >
-                      <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                      <i className="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
                     </a>
                   </div>
                 </div>
@@ -279,16 +230,75 @@ export default function Projects() {
                       target="_blank"
                       rel="noreferrer"
                       className="project__description--link"
+                      aria-label="Summarist GitHub repository"
                     >
-                      <i className="fa-brands fa-github"></i>
+                      <i className="fa-brands fa-github" aria-hidden="true"></i>
                     </a>
                     <a
                       href="https://summarist-vert.vercel.app"
                       target="_blank"
                       rel="noreferrer"
                       className="project__description--link"
+                      aria-label="Summarist live site"
                     >
-                      <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                      <i className="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            {/* Cinegalaxy */}
+            <li className="project">
+              <div className="project__wrapper project__wrapper--featured">
+                <div className="project__placeholder project__placeholder--cinema">
+                  <div className="project__mockup mockup-cinema">
+                    <div className="mockup__browser">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </div>
+                    <div className="mockup-cinema__header">
+                      <strong>Cinegalaxy</strong>
+                      <span>Movies</span>
+                    </div>
+                    <div className="mockup-cinema__grid">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </div>
+                  </div>
+                </div>
+                <div className="project__wrapper--background"></div>
+                <div className="project__description">
+                  <h3 className="project__description--title">Cinegalaxy</h3>
+                  <h4 className="project__description--sub-title">
+                    Next.js, React, TypeScript, Tailwind CSS
+                  </h4>
+                  <p className="project__description--para">
+                    A deployed movie browsing app built with Next.js, modern
+                    React, responsive styling, and a production-ready Vercel
+                    workflow.
+                  </p>
+                  <div className="project__description--links">
+                    <a
+                      href="https://github.com/babyboy198331-coder/IMDB-CLONE.git"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="project__description--link"
+                      aria-label="Cinegalaxy GitHub repository"
+                    >
+                      <i className="fa-brands fa-github" aria-hidden="true"></i>
+                    </a>
+                    <a
+                      href="https://imdb-clone-one-theta.vercel.app"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="project__description--link"
+                      aria-label="Cinegalaxy live site"
+                    >
+                      <i className="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
                     </a>
                   </div>
                 </div>
