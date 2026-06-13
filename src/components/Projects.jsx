@@ -25,6 +25,7 @@ export default function Projects() {
                   </div>
                 </div>
                 <div className="project__description">
+                  <span className="project__badge">Internship</span>
                   <h3 className="project__description--title">Skinstric AI</h3>
                   <h4 className="project__description--sub-title">
                     React, Vite, REST APIs, getUserMedia, Responsive CSS
