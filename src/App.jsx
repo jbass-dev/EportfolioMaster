@@ -15,7 +15,7 @@ export default function App() {
   }, [])
 
   useEffect(() => {
-    document.documentElement.classList.toggle('dark-theme', isDark)
+    document.documentElement.classList.toggle('light-theme', isDark)
   }, [isDark])
 
   useEffect(() => {
