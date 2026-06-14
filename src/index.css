@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300;1,9..144,400&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap');
+/* Google Fonts loaded via <link> in index.html for better performance */
 
 /* ── TOKENS — DARK (default) ── */
 :root {
@@ -457,7 +457,7 @@ nav figure {
   font-size: 9px;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: var(--fg-3);
+  color: rgba(232,230,225,0.62); /* increased from 0.38 for WCAG AA contrast */
 }
 
 .stats__value {
@@ -842,7 +842,7 @@ label {
 .section__number {
   font-family: 'DM Mono', monospace;
   font-size: 11px;
-  color: var(--fg-3);
+  color: rgba(232,230,225,0.62); /* increased from 0.38 for WCAG AA contrast */
   letter-spacing: 0.12em;
 }
 
@@ -1341,7 +1341,7 @@ footer {
   font-family: 'DM Mono', monospace;
   font-size: 9px;
   letter-spacing: 0.1em;
-  color: var(--fg-3);
+  color: rgba(232,230,225,0.62); /* increased from 0.38 for WCAG AA contrast */
 }
 
 /* ── RESPONSIVE ── */

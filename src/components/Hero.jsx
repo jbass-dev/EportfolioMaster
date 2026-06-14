@@ -70,7 +70,7 @@ export default function Hero({ toggleModal }) {
               />
             </div>
             <div className="hero__featured-info">
-              <h3 className="hero__featured-title">OfferBound</h3>
+              <h2 className="hero__featured-title">OfferBound</h2>
               <p className="hero__featured-stack">React · Firebase · Firestore</p>
               <p className="hero__featured-desc">
                 A full-stack job-application tracker I designed and built from scratch —
