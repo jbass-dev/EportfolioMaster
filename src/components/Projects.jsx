@@ -39,10 +39,10 @@ export default function Projects() {
                     tablet, and mobile.
                   </p>
                   <div className="project__description--links">
-                    <a href="https://github.com/babyboy198331-coder/Skinstric-Internship1" target="_blank" rel="noreferrer" className="project__description--link" aria-label="Skinstric AI GitHub">
+                    <a href="https://github.com/babyboy198331-coder/Skinstric-Internship1" target="_blank" rel="noreferrer" className="project__description--link" aria-label="Skinstric AI GitHub" title="View Skinstric AI source code on GitHub">
                       <i className="fa-brands fa-github" aria-hidden="true"></i>
                     </a>
-                    <a href="https://skinstric-internship1.vercel.app" target="_blank" rel="noreferrer" className="project__description--link" aria-label="Skinstric AI live">
+                    <a href="https://skinstric-internship1.vercel.app" target="_blank" rel="noreferrer" className="project__description--link" aria-label="Skinstric AI live" title="Open the live Skinstric AI app">
                       <i className="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
                     </a>
                   </div>
@@ -75,10 +75,10 @@ export default function Projects() {
                     reusable components, API requests, and Firebase integration.
                   </p>
                   <div className="project__description--links">
-                    <a href="https://github.com/babyboy198331-coder/john-internship.git" target="_blank" rel="noreferrer" className="project__description--link" aria-label="NFT Marketplace GitHub">
+                    <a href="https://github.com/babyboy198331-coder/john-internship.git" target="_blank" rel="noreferrer" className="project__description--link" aria-label="NFT Marketplace GitHub" title="View NFT Marketplace source code on GitHub">
                       <i className="fa-brands fa-github" aria-hidden="true"></i>
                     </a>
-                    <a href="https://john-internship-sj1k.vercel.app" target="_blank" rel="noreferrer" className="project__description--link" aria-label="NFT Marketplace live">
+                    <a href="https://john-internship-sj1k.vercel.app" target="_blank" rel="noreferrer" className="project__description--link" aria-label="NFT Marketplace live" title="Open the live NFT Marketplace app">
                       <i className="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
                     </a>
                   </div>
@@ -111,10 +111,10 @@ export default function Projects() {
                     modern React, TypeScript, and responsive Tailwind styling.
                   </p>
                   <div className="project__description--links">
-                    <a href="https://github.com/babyboy198331-coder/ai-chat-interface.git" target="_blank" rel="noreferrer" className="project__description--link" aria-label="ai-chat GitHub">
+                    <a href="https://github.com/babyboy198331-coder/ai-chat-interface.git" target="_blank" rel="noreferrer" className="project__description--link" aria-label="ai-chat GitHub" title="View ai-chat-interface source code on GitHub">
                       <i className="fa-brands fa-github" aria-hidden="true"></i>
                     </a>
-                    <a href="https://deep-seek-clone-wine.vercel.app/" target="_blank" rel="noreferrer" className="project__description--link" aria-label="ai-chat live">
+                    <a href="https://deep-seek-clone-wine.vercel.app/" target="_blank" rel="noreferrer" className="project__description--link" aria-label="ai-chat live" title="Open the live ai-chat-interface app">
                       <i className="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
                     </a>
                   </div>
@@ -148,10 +148,10 @@ export default function Projects() {
                     workflow.
                   </p>
                   <div className="project__description--links">
-                    <a href="https://github.com/babyboy198331-coder/IMDB-CLONE.git" target="_blank" rel="noreferrer" className="project__description--link" aria-label="Cinegalaxy GitHub">
+                    <a href="https://github.com/babyboy198331-coder/IMDB-CLONE.git" target="_blank" rel="noreferrer" className="project__description--link" aria-label="Cinegalaxy GitHub" title="View Cinegalaxy source code on GitHub">
                       <i className="fa-brands fa-github" aria-hidden="true"></i>
                     </a>
-                    <a href="https://imdb-clone-one-theta.vercel.app" target="_blank" rel="noreferrer" className="project__description--link" aria-label="Cinegalaxy live">
+                    <a href="https://imdb-clone-one-theta.vercel.app" target="_blank" rel="noreferrer" className="project__description--link" aria-label="Cinegalaxy live" title="Open the live Cinegalaxy app">
                       <i className="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
                     </a>
                   </div>
@@ -185,10 +185,10 @@ export default function Projects() {
                     and payment integration.
                   </p>
                   <div className="project__description--links">
-                    <a href="https://github.com/babyboy198331-coder/summarist.git" target="_blank" rel="noreferrer" className="project__description--link" aria-label="Summarist GitHub">
+                    <a href="https://github.com/babyboy198331-coder/summarist.git" target="_blank" rel="noreferrer" className="project__description--link" aria-label="Summarist GitHub" title="View Summarist source code on GitHub">
                       <i className="fa-brands fa-github" aria-hidden="true"></i>
                     </a>
-                    <a href="https://summarist-vert.vercel.app" target="_blank" rel="noreferrer" className="project__description--link" aria-label="Summarist live">
+                    <a href="https://summarist-vert.vercel.app" target="_blank" rel="noreferrer" className="project__description--link" aria-label="Summarist live" title="Open the live Summarist app">
                       <i className="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
                     </a>
                   </div>

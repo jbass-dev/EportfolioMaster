@@ -16,16 +16,16 @@ export default function Hero({ toggleModal }) {
             <span className="blue click" onClick={toggleModal} style={{cursor:'pointer', fontStyle:'italic'}}>More about me →</span>
           </p>
           <div className="hero__actions">
-            <a href="#projects" className="btn btn--primary">View my work</a>
-            <button className="btn btn--ghost" onClick={toggleModal}>Get in touch</button>
+            <a href="#projects" className="btn btn--primary" title="Jump to my projects section">View my work</a>
+            <button className="btn btn--ghost" onClick={toggleModal} title="Open the contact form to send me a message">Get in touch</button>
             <div className="social__list">
-              <a href="https://www.linkedin.com/in/john-b-1182183ba/" target="_blank" rel="noreferrer" className="social__link click" aria-label="LinkedIn">
+              <a href="https://www.linkedin.com/in/john-b-1182183ba/" target="_blank" rel="noreferrer" className="social__link click" aria-label="LinkedIn" title="Visit my LinkedIn profile">
                 <i className="fa-brands fa-linkedin-in" aria-hidden="true"></i>
               </a>
-              <a href="https://github.com/babyboy198331-coder" target="_blank" rel="noreferrer" className="social__link click" aria-label="GitHub">
+              <a href="https://github.com/babyboy198331-coder" target="_blank" rel="noreferrer" className="social__link click" aria-label="GitHub" title="Visit my GitHub profile">
                 <i className="fa-brands fa-github" aria-hidden="true"></i>
               </a>
-              <a href="/Document.pdf" target="_blank" rel="noreferrer" className="social__link click" aria-label="Resume">
+              <a href="/Document.pdf" target="_blank" rel="noreferrer" className="social__link click" aria-label="Resume" title="Open my resume PDF">
                 <i className="fa-regular fa-file-pdf" aria-hidden="true"></i>
               </a>
             </div>
@@ -52,7 +52,7 @@ export default function Hero({ toggleModal }) {
         </div>
 
         <div className="hero__right">
-          <a href="https://offerbound.vercel.app" target="_blank" rel="noreferrer" className="hero__featured-card">
+          <a href="https://offerbound.vercel.app" target="_blank" rel="noreferrer" className="hero__featured-card" title="View the live OfferBound app">
             <div className="hero__featured-top">
               <span className="hero__featured-tag">Original Build</span>
               <span className="hero__featured-link">
