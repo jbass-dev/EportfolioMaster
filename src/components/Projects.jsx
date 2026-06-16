@@ -32,11 +32,12 @@ export default function Projects() {
                   </h4>
                   <p className="project__description--para">
                     An AI skin-analysis platform built to a pixel-perfect Figma
-                    spec. Users take a live selfie or upload a photo, the image
-                    is sent base64-encoded to an AI API, and the results render
-                    in an interactive demographics dashboard with editable
-                    confidence scores — fully responsive across desktop,
-                    tablet, and mobile.
+                    spec using a reusable component library. Users take a live
+                    selfie or upload a photo, the image is sent base64-encoded
+                    to an AI API, and the results render in an interactive
+                    demographics dashboard with editable confidence scores —
+                    fully responsive across desktop, tablet, and mobile, and
+                    shipped through a CI/CD pipeline to Vercel.
                   </p>
                   <div className="project__description--links">
                     <a href="https://github.com/babyboy198331-coder/Skinstric-Internship1" target="_blank" rel="noreferrer" className="project__description--link" aria-label="Skinstric AI GitHub" title="View Skinstric AI source code on GitHub">

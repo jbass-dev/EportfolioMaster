@@ -11,8 +11,8 @@ export default function Hero({ toggleModal }) {
             <span className="title--accent">I'm John.</span>
           </h1>
           <p className="header__para">
-            I build responsive web applications with React, Next.js, and TypeScript —
-            clean code, pixel-perfect UIs, shipped on time.{' '}
+            I build responsive, accessible web applications with React, Next.js, and TypeScript —
+            reusable component libraries, clean code, CI/CD-deployed, shipped on time.{' '}
             <span className="blue click" onClick={toggleModal} style={{cursor:'pointer', fontStyle:'italic'}}>More about me →</span>
           </p>
           <div className="hero__actions">
