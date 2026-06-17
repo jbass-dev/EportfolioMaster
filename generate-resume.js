@@ -107,7 +107,7 @@ const doc = new Document({
         alignment: AlignmentType.CENTER,
         spacing: { after: 160 },
         children: [new TextRun({
-          text: 'Coyle, Oklahoma • babyboy198331@gmail.com • github.com/babyboy198331-coder • linkedin.com/in/john-b-1182183ba',
+          text: 'Coyle, Oklahoma • bassjohn159@yahoo.com • github.com/babyboy198331-coder • linkedin.com/in/john-b-1182183ba',
           size: 18, color: GRAY, font: 'Arial'
         })]
       }),

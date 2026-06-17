@@ -32,7 +32,7 @@ export default function Footer({ toggleModal }) {
               Resume
             </a>
             <a
-              href="mailto:babyboy198331@gmail.com"
+              href="mailto:bassjohn159@yahoo.com"
               className="footer__social--link link__hover-effect link__hover-effect--white"
               onClick={(e) => { e.preventDefault(); toggleModal() }}
             >

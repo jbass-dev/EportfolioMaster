@@ -28,7 +28,7 @@ export default function Modal({ isOpen, onClose }) {
       setStatus('success')
     } catch {
       setStatus('idle')
-      alert('The email service is temporarily unavailable. Please contact me directly on babyboy198331@gmail.com')
+      alert('The email service is temporarily unavailable. Please contact me directly on bassjohn159@yahoo.com')
     }
   }
 
@@ -75,8 +75,8 @@ export default function Modal({ isOpen, onClose }) {
           <h3 className="modal__sub-title modal__subtitle---contact">
             I am currently open to new opportunities.
           </h3>
-          <a href="mailto:babyboy198331@gmail.com" className="modal__email">
-            babyboy198331@gmail.com
+          <a href="mailto:bassjohn159@yahoo.com" className="modal__email">
+            bassjohn159@yahoo.com
           </a>
           <form id="contact__form" ref={formRef} onSubmit={handleSubmit}>
             <div className="form__item">
