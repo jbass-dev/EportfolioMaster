@@ -52,7 +52,7 @@ export default function Hero({ toggleModal }) {
         </div>
 
         <div className="hero__right">
-          <a href="https://offerbound.vercel.app" target="_blank" rel="noreferrer" className="hero__featured-card" title="View the live OfferBound app">
+          <a href="https://story-forge-tau-three.vercel.app" target="_blank" rel="noreferrer" className="hero__featured-card" title="View the live StoryForge app">
             <div className="hero__featured-top">
               <span className="hero__featured-tag">Original Build</span>
               <span className="hero__featured-link">
@@ -64,17 +64,19 @@ export default function Hero({ toggleModal }) {
                 <span></span><span></span><span></span>
               </div>
               <img
-                src="/assets/screenshot-1781315678461.png"
-                alt="OfferBound app"
+                src="/assets/storyforge.png"
+                alt="StoryForge app"
                 className="hero__featured-img"
               />
             </div>
             <div className="hero__featured-info">
-              <h2 className="hero__featured-title">OfferBound</h2>
-              <p className="hero__featured-stack">React · Firebase · Firestore</p>
+              <h2 className="hero__featured-title">StoryForge</h2>
+              <p className="hero__featured-stack">Node.js · Next.js · TypeScript · Groq/Llama · FFmpeg · PostgreSQL</p>
               <p className="hero__featured-desc">
-                A full-stack job-application tracker I designed and built from scratch —
-                Google auth, live stats dashboard, and follow-up reminders.
+                An AI pipeline that turns a one-line pitch into a fully-produced
+                vertical video reel — generated script, comic-style scene art,
+                narration, and an FFmpeg-assembled video — deployed across
+                Vercel, Railway, and Cloudflare R2.
               </p>
             </div>
           </a>

@@ -1,21 +1,6 @@
 import { useRef, useState } from 'react'
 import emailjs from '@emailjs/browser'
 
-const LANGUAGES = [
-  { src: '/assets/html.png', alt: 'HTML', name: 'HTML' },
-  { src: '/assets/css.png', alt: 'CSS', name: 'CSS' },
-  { src: '/assets/icons8-javascript-logo-100.png', alt: 'JavaScript', name: 'JavaScript' },
-  { src: '/assets/react.png', alt: 'React', name: 'React' },
-  { src: '/assets/nextjs.jpg', alt: 'Next.js', name: 'Next.js' },
-  { src: '/assets/typescript.png', alt: 'TypeScript', name: 'TypeScript' },
-  { src: '/assets/tailwind.png', alt: 'Tailwind CSS', name: 'Tailwind' },
-  { src: '/assets/firebase.png', alt: 'Firebase', name: 'Firebase' },
-  { src: '/assets/redux.png', alt: 'Redux', name: 'Redux' },
-  { src: '/assets/stripe.png', alt: 'Stripe', name: 'Stripe' },
-  { src: '/assets/github.png', alt: 'GitHub', name: 'GitHub' },
-  { src: '/assets/vercel.png', alt: 'Vercel', name: 'Vercel' },
-]
-
 export default function Modal({ isOpen, onClose }) {
   const formRef = useRef(null)
   const [status, setStatus] = useState('idle')
@@ -58,16 +43,17 @@ export default function Modal({ isOpen, onClose }) {
             <b className="blue">React, Next.js, and TypeScript</b> — reusable
             component libraries, CI/CD pipelines via GitHub Actions and Vercel,
             and projects like an AI skin-analysis platform during my internship
-            at Skinstric. Clean code, pixel-perfect layouts, shipped on time.
+            at Skinstric. Lately I've been pushing into the backend and infra
+            side too: designing schemas and writing queries in{' '}
+            <b className="blue">PostgreSQL</b>, deploying services on{' '}
+            <b className="blue">Railway and Render</b>, and using{' '}
+            <b className="blue">Cloudflare R2</b> for object storage on
+            StoryForge. I've also built real auth from scratch on Mini Expense
+            Tracker — JWT access/refresh token rotation, bcrypt hashing, and
+            one-time password-reset tokens — rather than dropping in an
+            off-the-shelf auth provider. Clean code, pixel-perfect layouts,
+            shipped on time.
           </p>
-          <div className="modal__languages">
-            {LANGUAGES.map((lang) => (
-              <figure key={lang.alt} className="modal__language">
-                <img className="modal__language--img" src={lang.src} alt={lang.alt} />
-                <span className="language__name">{lang.name}</span>
-              </figure>
-            ))}
-          </div>
         </div>
 
         <div className="modal__half modal__contact">

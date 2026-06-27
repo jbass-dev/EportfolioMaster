@@ -5,7 +5,126 @@ export default function Projects() {
         <div className="row">
           <div className="section__header">
             <span className="section__number">01</span>
-            <h2 className="section__title">Selected Work</h2>
+            <h2 className="section__title">Recent Work</h2>
+          </div>
+          <ul className="project__list">
+
+            {/* OfferBound — full-width (first) */}
+            <li className="project">
+              <div className="project__wrapper project__wrapper--featured">
+                <div className="project__placeholder project__placeholder--screenshot">
+                  <div className="project__screenshot-wrap">
+                    <div className="mockup__browser">
+                      <span></span><span></span><span></span>
+                    </div>
+                    <img
+                      src="/assets/screenshot-1781315678461.png"
+                      alt="OfferBound screenshot"
+                      className="project__screenshot-img"
+                    />
+                  </div>
+                </div>
+                <div className="project__description">
+                  <h3 className="project__description--title">OfferBound</h3>
+                  <h4 className="project__description--sub-title">
+                    React, Firebase, Firestore
+                  </h4>
+                  <p className="project__description--para">
+                    A full-stack job-application tracker designed and built
+                    from scratch — Google auth, a live stats dashboard, and
+                    follow-up reminders.
+                  </p>
+                  <div className="project__description--links">
+                    <a href="https://github.com/babyboy198331-coder/OfferBound" target="_blank" rel="noreferrer" className="project__description--link" aria-label="OfferBound GitHub" title="View OfferBound source code on GitHub">
+                      <i className="fa-brands fa-github" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://offerbound.vercel.app" target="_blank" rel="noreferrer" className="project__description--link" aria-label="OfferBound live" title="Open the live OfferBound app">
+                      <i className="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            {/* ai-chat-interface — side by side with Mini Expense Tracker */}
+            <li className="project">
+              <div className="project__wrapper">
+                <div className="project__placeholder project__placeholder--screenshot">
+                  <div className="project__screenshot-wrap">
+                    <div className="mockup__browser">
+                      <span></span><span></span><span></span>
+                    </div>
+                    <img
+                      src="/assets/screenshot-1781315851205.png"
+                      alt="ai-chat-interface screenshot"
+                      className="project__screenshot-img"
+                    />
+                  </div>
+                </div>
+                <div className="project__description">
+                  <h3 className="project__description--title">ai-chat-interface</h3>
+                  <h4 className="project__description--sub-title">
+                    Next.js, React, TypeScript, Tailwind CSS, OpenAI API
+                  </h4>
+                  <p className="project__description--para">
+                    A chat interface built from scratch around the OpenAI
+                    API — an original integration handling request/response
+                    state and responsive Tailwind styling, not a UI clone.
+                  </p>
+                  <div className="project__description--links">
+                    <a href="https://github.com/babyboy198331-coder/ai-chat-interface.git" target="_blank" rel="noreferrer" className="project__description--link" aria-label="ai-chat GitHub" title="View ai-chat-interface source code on GitHub">
+                      <i className="fa-brands fa-github" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://deep-seek-clone-wine.vercel.app/" target="_blank" rel="noreferrer" className="project__description--link" aria-label="ai-chat live" title="Open the live ai-chat-interface app">
+                      <i className="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            {/* Mini Expense Tracker — side by side with ai-chat-interface */}
+            <li className="project">
+              <div className="project__wrapper">
+                <div className="project__placeholder project__placeholder--screenshot">
+                  <div className="project__screenshot-wrap">
+                    <div className="mockup__browser">
+                      <span></span><span></span><span></span>
+                    </div>
+                    <img
+                      src="/assets/mini-expense-tracker-screenshot.png"
+                      alt="Mini Expense Tracker screenshot"
+                      className="project__screenshot-img"
+                    />
+                  </div>
+                </div>
+                <div className="project__description">
+                  <h3 className="project__description--title">Mini Expense Tracker</h3>
+                  <h4 className="project__description--sub-title">
+                    Express, PostgreSQL, JWT, bcrypt, Render, GitHub Pages
+                  </h4>
+                  <p className="project__description--para">
+                    A full-stack expense tracker built to go deep on auth:
+                    bcrypt password hashing, rotating JWT access/refresh
+                    tokens, a one-time-token forgot/reset-password flow, and
+                    routes scoped per-user. Backend on Render with a
+                    Render-managed Postgres database; frontend on GitHub
+                    Pages.
+                  </p>
+                  <div className="project__description--links">
+                    <a href="https://github.com/babyboy198331-coder/miniexpensetracker" target="_blank" rel="noreferrer" className="project__description--link" aria-label="Mini Expense Tracker GitHub" title="View Mini Expense Tracker source code on GitHub">
+                      <i className="fa-brands fa-github" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+
+          <div className="section__header section__header--earlier">
+            <span className="section__number">02</span>
+            <h2 className="section__title">Earlier Work</h2>
           </div>
           <ul className="project__list">
 
@@ -51,78 +170,6 @@ export default function Projects() {
               </div>
             </li>
 
-            {/* NFT Marketplace — side by side with ai-chat */}
-            <li className="project">
-              <div className="project__wrapper project__wrapper--featured">
-                <div className="project__placeholder project__placeholder--screenshot">
-                  <div className="project__screenshot-wrap">
-                    <div className="mockup__browser">
-                      <span></span><span></span><span></span>
-                    </div>
-                    <img
-                      src="/assets/screenshot-1781316122786.png"
-                      alt="NFT Marketplace screenshot"
-                      className="project__screenshot-img"
-                    />
-                  </div>
-                </div>
-                <div className="project__description">
-                  <h3 className="project__description--title">NFT Marketplace</h3>
-                  <h4 className="project__description--sub-title">
-                    React, Firebase, Axios, React Router
-                  </h4>
-                  <p className="project__description--para">
-                    A deployed React marketplace project built with routing,
-                    reusable components, API requests, and Firebase integration.
-                  </p>
-                  <div className="project__description--links">
-                    <a href="https://github.com/babyboy198331-coder/john-internship.git" target="_blank" rel="noreferrer" className="project__description--link" aria-label="NFT Marketplace GitHub" title="View NFT Marketplace source code on GitHub">
-                      <i className="fa-brands fa-github" aria-hidden="true"></i>
-                    </a>
-                    <a href="https://john-internship-sj1k.vercel.app" target="_blank" rel="noreferrer" className="project__description--link" aria-label="NFT Marketplace live" title="Open the live NFT Marketplace app">
-                      <i className="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </li>
-
-            {/* ai-chat-interface — side by side with NFT */}
-            <li className="project">
-              <div className="project__wrapper">
-                <div className="project__placeholder project__placeholder--screenshot">
-                  <div className="project__screenshot-wrap">
-                    <div className="mockup__browser">
-                      <span></span><span></span><span></span>
-                    </div>
-                    <img
-                      src="/assets/screenshot-1781315851205.png"
-                      alt="ai-chat-interface screenshot"
-                      className="project__screenshot-img"
-                    />
-                  </div>
-                </div>
-                <div className="project__description">
-                  <h3 className="project__description--title">ai-chat-interface</h3>
-                  <h4 className="project__description--sub-title">
-                    Next.js, React, TypeScript, Tailwind CSS
-                  </h4>
-                  <p className="project__description--para">
-                    A deployed AI chat interface clone built with Next.js,
-                    modern React, TypeScript, and responsive Tailwind styling.
-                  </p>
-                  <div className="project__description--links">
-                    <a href="https://github.com/babyboy198331-coder/ai-chat-interface.git" target="_blank" rel="noreferrer" className="project__description--link" aria-label="ai-chat GitHub" title="View ai-chat-interface source code on GitHub">
-                      <i className="fa-brands fa-github" aria-hidden="true"></i>
-                    </a>
-                    <a href="https://deep-seek-clone-wine.vercel.app/" target="_blank" rel="noreferrer" className="project__description--link" aria-label="ai-chat live" title="Open the live ai-chat-interface app">
-                      <i className="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </li>
-
             {/* Cinegalaxy */}
             <li className="project">
               <div className="project__wrapper project__wrapper--featured">
@@ -153,43 +200,6 @@ export default function Projects() {
                       <i className="fa-brands fa-github" aria-hidden="true"></i>
                     </a>
                     <a href="https://imdb-clone-one-theta.vercel.app" target="_blank" rel="noreferrer" className="project__description--link" aria-label="Cinegalaxy live" title="Open the live Cinegalaxy app">
-                      <i className="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </li>
-
-            {/* Summarist — full-width (last) */}
-            <li className="project">
-              <div className="project__wrapper project__wrapper--featured">
-                <div className="project__placeholder project__placeholder--screenshot">
-                  <div className="project__screenshot-wrap">
-                    <div className="mockup__browser">
-                      <span></span><span></span><span></span>
-                    </div>
-                    <img
-                      src="/assets/Screenshot_12-6-2026_20595_summarist-vert.vercel.app.jpeg"
-                      alt="Summarist screenshot"
-                      className="project__screenshot-img"
-                    />
-                  </div>
-                </div>
-                <div className="project__description">
-                  <h3 className="project__description--title">Summarist</h3>
-                  <h4 className="project__description--sub-title">
-                    Next.js, React, TypeScript, Redux, Firebase, Stripe
-                  </h4>
-                  <p className="project__description--para">
-                    A deployed reading and subscription-style app built with
-                    modern Next.js, state management, authentication tooling,
-                    and payment integration.
-                  </p>
-                  <div className="project__description--links">
-                    <a href="https://github.com/babyboy198331-coder/summarist.git" target="_blank" rel="noreferrer" className="project__description--link" aria-label="Summarist GitHub" title="View Summarist source code on GitHub">
-                      <i className="fa-brands fa-github" aria-hidden="true"></i>
-                    </a>
-                    <a href="https://summarist-vert.vercel.app" target="_blank" rel="noreferrer" className="project__description--link" aria-label="Summarist live" title="Open the live Summarist app">
                       <i className="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
                     </a>
                   </div>
