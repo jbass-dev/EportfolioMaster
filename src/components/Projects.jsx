@@ -92,7 +92,7 @@ export default function Projects() {
                       <span></span><span></span><span></span>
                     </div>
                     <img
-                      src="/assets/mini-expense-tracker-screenshot.png"
+                      src="/assets/miniexpress.png"
                       alt="Mini Expense Tracker screenshot"
                       className="project__screenshot-img"
                     />
