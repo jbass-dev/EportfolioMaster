@@ -960,6 +960,7 @@ label {
 
 .project { width: 100%; }
 .project:first-child { grid-column: 1 / -1; }
+.project--uniform:first-child { grid-column: auto; }
 
 .project__wrapper {
   position: relative;
@@ -990,6 +991,7 @@ label {
   border-bottom: 1px solid var(--border);
 }
 .project:first-child .project__placeholder { min-height: 380px; }
+.project--uniform:first-child .project__placeholder { min-height: 320px; }
 
 .project__placeholder--default { background: linear-gradient(135deg, #0e0e0e, #1a1a2a); }
 .project__placeholder--dark    { background: linear-gradient(135deg, #0a0a18, #111130); }
@@ -1121,6 +1123,7 @@ label {
 }
 
 .project:first-child .project__screenshot-img { height: 340px; }
+.project--uniform:first-child .project__screenshot-img { height: 280px; }
 
 /* ── MOCKUPS ── */
 .project__mockup {

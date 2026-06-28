@@ -10,7 +10,7 @@ export default function Projects() {
           <ul className="project__list">
 
             {/* CRM AI */}
-            <li className="project">
+            <li className="project project--uniform">
               <div className="project__wrapper">
                 <div className="project__placeholder project__placeholder--screenshot">
                   <div className="project__screenshot-wrap">
