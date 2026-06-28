@@ -155,6 +155,9 @@ export default function Projects() {
                     <a href="https://github.com/babyboy198331-coder/miniexpensetracker" target="_blank" rel="noreferrer" className="project__description--link" aria-label="Mini Expense Tracker GitHub" title="View Mini Expense Tracker source code on GitHub">
                       <i className="fa-brands fa-github" aria-hidden="true"></i>
                     </a>
+                    <a href="https://babyboy198331-coder.github.io/miniexpensetracker/" target="_blank" rel="noreferrer" className="project__description--link" aria-label="Mini Expense Tracker live" title="Open the live Mini Expense Tracker app">
+                      <i className="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+                    </a>
                   </div>
                 </div>
               </div>
