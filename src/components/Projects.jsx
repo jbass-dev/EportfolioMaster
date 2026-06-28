@@ -9,9 +9,9 @@ export default function Projects() {
           </div>
           <ul className="project__list">
 
-            {/* CRM AI — full-width (first, most recent) */}
+            {/* CRM AI */}
             <li className="project">
-              <div className="project__wrapper project__wrapper--featured">
+              <div className="project__wrapper">
                 <div className="project__placeholder project__placeholder--screenshot">
                   <div className="project__screenshot-wrap">
                     <div className="mockup__browser">
@@ -49,9 +49,9 @@ export default function Projects() {
               </div>
             </li>
 
-            {/* OfferBound — full-width */}
+            {/* OfferBound */}
             <li className="project">
-              <div className="project__wrapper project__wrapper--featured">
+              <div className="project__wrapper">
                 <div className="project__placeholder project__placeholder--screenshot">
                   <div className="project__screenshot-wrap">
                     <div className="mockup__browser">
