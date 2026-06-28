@@ -41,6 +41,9 @@ export default function Projects() {
                     <a href="https://github.com/babyboy198331-coder/crm-ai" target="_blank" rel="noreferrer" className="project__description--link" aria-label="CRM AI GitHub" title="View CRM AI source code on GitHub">
                       <i className="fa-brands fa-github" aria-hidden="true"></i>
                     </a>
+                    <a href="https://independent-perfection-production-c08c.up.railway.app" target="_blank" rel="noreferrer" className="project__description--link" aria-label="CRM AI live" title="Open the live CRM AI app">
+                      <i className="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+                    </a>
                   </div>
                 </div>
               </div>
