@@ -15,6 +15,10 @@ const TECHS = [
   { src: '/assets/react-router.png', alt: 'React Router', label: 'React Router' },
   { src: '/assets/axios.png', alt: 'Axios', label: 'Axios' },
   { src: '/assets/rest-api.png', alt: 'REST APIs', label: 'REST APIs' },
+  { src: '/assets/docker.png', alt: 'Docker', label: 'Docker' },
+  { src: '/assets/railway.png', alt: 'Railway', label: 'Railway' },
+  { src: '/assets/render.png', alt: 'Render', label: 'Render' },
+  { src: '/assets/pgadmin.png', alt: 'pgAdmin', label: 'pgAdmin' },
 ]
 
 function TickerItem({ src, alt, label }) {

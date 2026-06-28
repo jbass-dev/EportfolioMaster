@@ -9,7 +9,44 @@ export default function Projects() {
           </div>
           <ul className="project__list">
 
-            {/* OfferBound — full-width (first) */}
+            {/* CRM AI — full-width (first, most recent) */}
+            <li className="project">
+              <div className="project__wrapper project__wrapper--featured">
+                <div className="project__placeholder project__placeholder--screenshot">
+                  <div className="project__screenshot-wrap">
+                    <div className="mockup__browser">
+                      <span></span><span></span><span></span>
+                    </div>
+                    <img
+                      src="/assets/crm-ai.png"
+                      alt="CRM AI dashboard screenshot"
+                      className="project__screenshot-img"
+                    />
+                  </div>
+                </div>
+                <div className="project__description">
+                  <h3 className="project__description--title">CRM AI</h3>
+                  <h4 className="project__description--sub-title">
+                    Next.js, Node.js/Express, Prisma, PostgreSQL, Docker, Railway, OpenAI API
+                  </h4>
+                  <p className="project__description--para">
+                    A full-stack CRM with customer/contact management, file
+                    uploads, and role-based permissions (Admin/Manager/Rep) —
+                    plus AI features layered on top: meeting summaries,
+                    follow-up email drafts, and a customer Q&amp;A chatbot.
+                    Containerized with Docker for local dev and deployed as
+                    three services (frontend, backend, Postgres) on Railway.
+                  </p>
+                  <div className="project__description--links">
+                    <a href="https://github.com/babyboy198331-coder/crm-ai" target="_blank" rel="noreferrer" className="project__description--link" aria-label="CRM AI GitHub" title="View CRM AI source code on GitHub">
+                      <i className="fa-brands fa-github" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            {/* OfferBound — full-width */}
             <li className="project">
               <div className="project__wrapper project__wrapper--featured">
                 <div className="project__placeholder project__placeholder--screenshot">
@@ -163,43 +200,6 @@ export default function Projects() {
                       <i className="fa-brands fa-github" aria-hidden="true"></i>
                     </a>
                     <a href="https://skinstric-internship1.vercel.app" target="_blank" rel="noreferrer" className="project__description--link" aria-label="Skinstric AI live" title="Open the live Skinstric AI app">
-                      <i className="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </li>
-
-            {/* Cinegalaxy */}
-            <li className="project">
-              <div className="project__wrapper project__wrapper--featured">
-                <div className="project__placeholder project__placeholder--screenshot">
-                  <div className="project__screenshot-wrap">
-                    <div className="mockup__browser">
-                      <span></span><span></span><span></span>
-                    </div>
-                    <img
-                      src="/assets/screenshot-1781315769876.png"
-                      alt="Cinegalaxy screenshot"
-                      className="project__screenshot-img"
-                    />
-                  </div>
-                </div>
-                <div className="project__description">
-                  <h3 className="project__description--title">Cinegalaxy</h3>
-                  <h4 className="project__description--sub-title">
-                    Next.js, React, TypeScript, Tailwind CSS
-                  </h4>
-                  <p className="project__description--para">
-                    A deployed movie browsing app built with Next.js, modern
-                    React, responsive styling, and a production-ready Vercel
-                    workflow.
-                  </p>
-                  <div className="project__description--links">
-                    <a href="https://github.com/babyboy198331-coder/IMDB-CLONE.git" target="_blank" rel="noreferrer" className="project__description--link" aria-label="Cinegalaxy GitHub" title="View Cinegalaxy source code on GitHub">
-                      <i className="fa-brands fa-github" aria-hidden="true"></i>
-                    </a>
-                    <a href="https://imdb-clone-one-theta.vercel.app" target="_blank" rel="noreferrer" className="project__description--link" aria-label="Cinegalaxy live" title="Open the live Cinegalaxy app">
                       <i className="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
                     </a>
                   </div>
