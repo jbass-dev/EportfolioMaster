@@ -1469,12 +1469,14 @@ footer {
   .modal {
     top: 0; left: 0;
     transform: none;
-    height: auto;
-    min-height: 100vh;
+    height: 100vh;
+    height: 100dvh;
     width: 100%;
     flex-direction: column-reverse;
     border-radius: 0;
     border: none;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
   }
   .modal__half { width: 100%; padding: 40px 28px; }
   .modal__languages { grid-template-columns: repeat(3, minmax(60px, 1fr)); }
