@@ -5,7 +5,7 @@ export default function Hero({ toggleModal }) {
     <>
       <header className="header">
         <div className="hero__left">
-          <p className="hero__eyebrow">Frontend Software Engineer</p>
+          <p className="hero__eyebrow">Full-Stack Software Engineer</p>
           <h1 className="title">
             <span className="title--outline">Hello,</span>
             <span className="title--accent">I'm John.</span>

@@ -32,7 +32,7 @@ export default function Modal({ isOpen, onClose }) {
 
         <div className="modal__half modal__about">
           <h3 className="modal__title modal__title--about">Here's a bit about me.</h3>
-          <h4 className="modal__sub-title modal__sub-title--about">Frontend Software Engineer.</h4>
+          <h4 className="modal__sub-title modal__sub-title--about">Full-Stack Software Engineer.</h4>
           <p className="modal__para">
             I'm a builder by nature. Before code, I spent{' '}
             <b className="blue">seven years leading a team</b>{' '}
