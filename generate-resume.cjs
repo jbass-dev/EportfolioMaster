@@ -100,7 +100,7 @@ const doc = new Document({
       new Paragraph({
         alignment: AlignmentType.CENTER,
         spacing: { after: 60 },
-        children: [new TextRun({ text: 'Frontend Software Engineer — React · Next.js · TypeScript', size: 22, color: ACCENT, font: 'Arial' })]
+        children: [new TextRun({ text: 'Full-Stack Software Engineer — React · Next.js · TypeScript', size: 22, color: ACCENT, font: 'Arial' })]
       }),
       // Contact
       new Paragraph({
@@ -117,7 +117,7 @@ const doc = new Document({
       new Paragraph({
         spacing: { after: 0 },
         children: [new TextRun({
-          text: 'Frontend Software Engineer building responsive, pixel-perfect web applications with React, Next.js, TypeScript, and modern JavaScript. Experienced in REST API integration, state management, authentication, and payment flows, with deployed production projects and a focus on accessibility and performance (90+ Lighthouse scores). Brings seven years of management experience and a disciplined, deadline-driven work ethic to every build.',
+          text: 'Full-Stack Software Engineer building responsive, pixel-perfect web applications with React, Next.js, TypeScript, and modern JavaScript, backed by Node.js/Express, PostgreSQL, and Docker on the backend. Experienced in REST API integration, state management, authentication, and payment flows, with deployed production projects and a focus on accessibility and performance (90+ Lighthouse scores). Brings seven years of management experience and a disciplined, deadline-driven work ethic to every build.',
           size: 20, color: BLACK, font: 'Arial'
         })]
       }),
