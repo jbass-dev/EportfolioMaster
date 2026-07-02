@@ -51,8 +51,11 @@ export default function Modal({ isOpen, onClose }) {
             StoryForge. I've also built real auth from scratch on Mini Expense
             Tracker — JWT access/refresh token rotation, bcrypt hashing, and
             one-time password-reset tokens — rather than dropping in an
-            off-the-shelf auth provider. Clean code, pixel-perfect layouts,
-            shipped on time.
+            off-the-shelf auth provider. None of this was assigned —{' '}
+            <b className="blue">I taught myself</b> by building past what any
+            curriculum covers, which is the same way I'll ramp up on
+            whatever your stack throws at me. Clean code, pixel-perfect
+            layouts, shipped on time.
           </p>
         </div>
 
