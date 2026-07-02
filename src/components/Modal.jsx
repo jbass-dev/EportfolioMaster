@@ -52,11 +52,9 @@ export default function Modal({ isOpen, onClose }) {
             Tracker — JWT access/refresh token rotation, bcrypt hashing, and
             one-time password-reset tokens — rather than dropping in an
             off-the-shelf auth provider. Frontend Simplified gave me the
-            foundation, and{' '}
-            <b className="blue">I've kept pushing past it on my own</b>{' '}
-            since — the same drive I'll bring to ramping up on whatever
-            your stack throws at me. Clean code, pixel-perfect layouts,
-            shipped on time.
+            foundation — everything past that,{' '}
+            <b className="blue">I've learned by building it myself</b>.
+            Clean code, pixel-perfect layouts, shipped on time.
           </p>
         </div>
 
