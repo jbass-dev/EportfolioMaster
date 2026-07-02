@@ -22,7 +22,7 @@ export default function Hero({ toggleModal }) {
               <a href="https://www.linkedin.com/in/john-b-1182183ba/" target="_blank" rel="noreferrer" className="social__link click" aria-label="LinkedIn" title="Visit my LinkedIn profile">
                 <i className="fa-brands fa-linkedin-in" aria-hidden="true"></i>
               </a>
-              <a href="https://github.com/babyboy198331-coder" target="_blank" rel="noreferrer" className="social__link click" aria-label="GitHub" title="Visit my GitHub profile">
+              <a href="https://github.com/jbass-dev" target="_blank" rel="noreferrer" className="social__link click" aria-label="GitHub" title="Visit my GitHub profile">
                 <i className="fa-brands fa-github" aria-hidden="true"></i>
               </a>
               <a href="/Document.pdf" target="_blank" rel="noreferrer" className="social__link click" aria-label="Resume" title="Open my resume PDF">

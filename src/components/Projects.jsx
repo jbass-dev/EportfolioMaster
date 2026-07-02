@@ -38,7 +38,7 @@ export default function Projects() {
                     three services (frontend, backend, Postgres) on Railway.
                   </p>
                   <div className="project__description--links">
-                    <a href="https://github.com/babyboy198331-coder/crm-ai" target="_blank" rel="noreferrer" className="project__description--link" aria-label="CRM AI GitHub" title="View CRM AI source code on GitHub">
+                    <a href="https://github.com/jbass-dev/crm-ai" target="_blank" rel="noreferrer" className="project__description--link" aria-label="CRM AI GitHub" title="View CRM AI source code on GitHub">
                       <i className="fa-brands fa-github" aria-hidden="true"></i>
                     </a>
                     <a href="https://independent-perfection-production-c08c.up.railway.app" target="_blank" rel="noreferrer" className="project__description--link" aria-label="CRM AI live" title="Open the live CRM AI app">
@@ -77,7 +77,7 @@ export default function Projects() {
                     match, with keyword and formatting feedback.
                   </p>
                   <div className="project__description--links">
-                    <a href="https://github.com/babyboy198331-coder/OfferBound" target="_blank" rel="noreferrer" className="project__description--link" aria-label="OfferBound GitHub" title="View OfferBound source code on GitHub">
+                    <a href="https://github.com/jbass-dev/OfferBound" target="_blank" rel="noreferrer" className="project__description--link" aria-label="OfferBound GitHub" title="View OfferBound source code on GitHub">
                       <i className="fa-brands fa-github" aria-hidden="true"></i>
                     </a>
                     <a href="https://offerbound.vercel.app" target="_blank" rel="noreferrer" className="project__description--link" aria-label="OfferBound live" title="Open the live OfferBound app">
@@ -115,7 +115,7 @@ export default function Projects() {
                     like DeepSeek, Llama, and Gemma, not a UI clone.
                   </p>
                   <div className="project__description--links">
-                    <a href="https://github.com/babyboy198331-coder/ai-chat-interface" target="_blank" rel="noreferrer" className="project__description--link" aria-label="ai-chat GitHub" title="View ai-chat-interface source code on GitHub">
+                    <a href="https://github.com/jbass-dev/ai-chat-interface" target="_blank" rel="noreferrer" className="project__description--link" aria-label="ai-chat GitHub" title="View ai-chat-interface source code on GitHub">
                       <i className="fa-brands fa-github" aria-hidden="true"></i>
                     </a>
                     <a href="https://deep-seek-clone-wine.vercel.app/" target="_blank" rel="noreferrer" className="project__description--link" aria-label="ai-chat live" title="Open the live ai-chat-interface app">
@@ -155,10 +155,10 @@ export default function Projects() {
                     Pages.
                   </p>
                   <div className="project__description--links">
-                    <a href="https://github.com/babyboy198331-coder/miniexpensetracker" target="_blank" rel="noreferrer" className="project__description--link" aria-label="Mini Expense Tracker GitHub" title="View Mini Expense Tracker source code on GitHub">
+                    <a href="https://github.com/jbass-dev/miniexpensetracker" target="_blank" rel="noreferrer" className="project__description--link" aria-label="Mini Expense Tracker GitHub" title="View Mini Expense Tracker source code on GitHub">
                       <i className="fa-brands fa-github" aria-hidden="true"></i>
                     </a>
-                    <a href="https://babyboy198331-coder.github.io/miniexpensetracker/" target="_blank" rel="noreferrer" className="project__description--link" aria-label="Mini Expense Tracker live" title="Open the live Mini Expense Tracker app">
+                    <a href="https://jbass-dev.github.io/miniexpensetracker/" target="_blank" rel="noreferrer" className="project__description--link" aria-label="Mini Expense Tracker live" title="Open the live Mini Expense Tracker app">
                       <i className="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
                     </a>
                   </div>
@@ -205,7 +205,7 @@ export default function Projects() {
                     shipped through a CI/CD pipeline to Vercel.
                   </p>
                   <div className="project__description--links">
-                    <a href="https://github.com/babyboy198331-coder/Skinstric-Internship1" target="_blank" rel="noreferrer" className="project__description--link" aria-label="Skinstric AI GitHub" title="View Skinstric AI source code on GitHub">
+                    <a href="https://github.com/jbass-dev/Skinstric-Internship1" target="_blank" rel="noreferrer" className="project__description--link" aria-label="Skinstric AI GitHub" title="View Skinstric AI source code on GitHub">
                       <i className="fa-brands fa-github" aria-hidden="true"></i>
                     </a>
                     <a href="https://skinstric-internship1.vercel.app" target="_blank" rel="noreferrer" className="project__description--link" aria-label="Skinstric AI live" title="Open the live Skinstric AI app">

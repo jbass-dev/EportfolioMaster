@@ -107,7 +107,7 @@ const doc = new Document({
         alignment: AlignmentType.CENTER,
         spacing: { after: 160 },
         children: [new TextRun({
-          text: 'Coyle, Oklahoma • bassjohn159@yahoo.com • github.com/babyboy198331-coder • linkedin.com/in/john-b-1182183ba',
+          text: 'Coyle, Oklahoma • bassjohn159@yahoo.com • github.com/jbass-dev • linkedin.com/in/john-b-1182183ba',
           size: 18, color: GRAY, font: 'Arial'
         })]
       }),
@@ -149,7 +149,7 @@ const doc = new Document({
         'Multi-model chat interface with live token streaming, markdown rendering, and persistent conversations across DeepSeek, Llama, and Gemma'),
       projectLine('Mini Expense Tracker', 'Express, PostgreSQL, JWT, bcrypt',
         'Full-stack expense tracker built to go deep on auth — bcrypt hashing, rotating JWT access/refresh tokens, and a one-time-token reset flow',
-        'babyboy198331-coder.github.io/miniexpensetracker'),
+        'jbass-dev.github.io/miniexpensetracker'),
 
       // ── ADDITIONAL EXPERIENCE ──
       ...sectionHeader('ADDITIONAL EXPERIENCE'),

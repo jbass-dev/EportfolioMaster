@@ -36,8 +36,8 @@
 
 ### 📊 GitHub Stats
 
-![John's GitHub Stats](https://github-readme-stats.vercel.app/api?username=babyboy198331-coder&show_icons=true&theme=dark&hide_border=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=babyboy198331-coder&layout=compact&theme=dark&hide_border=true)
+![John's GitHub Stats](https://github-readme-stats.vercel.app/api?username=jbass-dev&show_icons=true&theme=dark&hide_border=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=jbass-dev&layout=compact&theme=dark&hide_border=true)
 
 ---
 

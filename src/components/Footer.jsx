@@ -8,7 +8,7 @@ export default function Footer({ toggleModal }) {
           </figure>
           <div className="footer__social--list">
             <a
-              href="https://github.com/babyboy198331-coder"
+              href="https://github.com/jbass-dev"
               target="_blank"
               rel="noreferrer"
               className="footer__social--link link__hover-effect link__hover-effect--white"
