@@ -67,12 +67,14 @@ export default function Projects() {
                 <div className="project__description">
                   <h3 className="project__description--title">OfferBound</h3>
                   <h4 className="project__description--sub-title">
-                    React, Firebase, Firestore
+                    React, Vite, Firebase, Firestore
                   </h4>
                   <p className="project__description--para">
                     A full-stack job-application tracker designed and built
                     from scratch — Google auth, a live stats dashboard, and
-                    follow-up reminders.
+                    follow-up reminders. Also includes a Resume Scanner
+                    that scores a resume against a job description for ATS
+                    match, with keyword and formatting feedback.
                   </p>
                   <div className="project__description--links">
                     <a href="https://github.com/babyboy198331-coder/OfferBound" target="_blank" rel="noreferrer" className="project__description--link" aria-label="OfferBound GitHub" title="View OfferBound source code on GitHub">
@@ -104,15 +106,16 @@ export default function Projects() {
                 <div className="project__description">
                   <h3 className="project__description--title">ai-chat-interface</h3>
                   <h4 className="project__description--sub-title">
-                    Next.js, React, TypeScript, Tailwind CSS, OpenAI API
+                    Next.js, React, TypeScript, Tailwind CSS, OpenRouter API
                   </h4>
                   <p className="project__description--para">
-                    A chat interface built from scratch around the OpenAI
-                    API — an original integration handling request/response
-                    state and responsive Tailwind styling, not a UI clone.
+                    A multi-model chat interface built from scratch around
+                    the OpenRouter API — live token streaming, markdown
+                    rendering, and persistent conversations across models
+                    like DeepSeek, Llama, and Gemma, not a UI clone.
                   </p>
                   <div className="project__description--links">
-                    <a href="https://github.com/babyboy198331-coder/ai-chat-interface.git" target="_blank" rel="noreferrer" className="project__description--link" aria-label="ai-chat GitHub" title="View ai-chat-interface source code on GitHub">
+                    <a href="https://github.com/babyboy198331-coder/ai-chat-interface" target="_blank" rel="noreferrer" className="project__description--link" aria-label="ai-chat GitHub" title="View ai-chat-interface source code on GitHub">
                       <i className="fa-brands fa-github" aria-hidden="true"></i>
                     </a>
                     <a href="https://deep-seek-clone-wine.vercel.app/" target="_blank" rel="noreferrer" className="project__description--link" aria-label="ai-chat live" title="Open the live ai-chat-interface app">
