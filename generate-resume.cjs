@@ -125,13 +125,14 @@ const doc = new Document({
       // ── TECHNICAL SKILLS ──
       ...sectionHeader('TECHNICAL SKILLS'),
       skillLine('Languages', 'JavaScript (ES6+), TypeScript, HTML5, CSS3'),
-      skillLine('Frameworks & Libraries', 'React, Next.js, Redux, Tailwind CSS, Vite, React Router, Axios'),
-      skillLine('Tools & Platforms', 'Git, GitHub, Vercel, Firebase, Stripe, REST APIs, EmailJS'),
+      skillLine('Frameworks & Libraries', 'React, Next.js, Redux Toolkit, Tailwind CSS, Vite'),
+      skillLine('Backend & Data', 'Node.js, Express, Prisma, PostgreSQL, JWT/bcrypt auth, REST APIs'),
+      skillLine('Tools & Platforms', 'Git, GitHub, Docker, Vercel, Railway, Render, Firebase, Stripe'),
       skillLine('Practices', 'Responsive design, API integration, debugging, accessibility (WCAG), performance optimization'),
 
       // ── EXPERIENCE ──
       ...sectionHeader('EXPERIENCE'),
-      jobLine('Software Development Intern — Skinstric', '2026'),
+      jobLine('Frontend Engineering Intern — Figma to React Implementation, Skinstric', '2026'),
       bullet('Built an AI skin-analysis platform to a pixel-perfect Figma spec using React and Vite'),
       bullet('Integrated live camera capture (getUserMedia) and base64 image upload to an AI REST API'),
       bullet('Developed an interactive demographics dashboard with editable confidence scores, fully responsive across desktop, tablet, and mobile'),
@@ -139,26 +140,21 @@ const doc = new Document({
 
       // ── PROJECTS ──
       ...sectionHeader('PROJECTS'),
+      projectLine('CRM AI', 'Next.js, Node.js/Express, Prisma, PostgreSQL, Docker, Railway, OpenAI API',
+        'Full-stack CRM with role-based permissions and AI features (meeting summaries, follow-up drafts, Q&A chatbot); containerized with Docker, deployed as three services on Railway'),
       projectLine('OfferBound', 'React, Vite, Firebase Auth, Cloud Firestore',
-        'Original job-application tracker built end to end — Google sign-in, per-user Firestore data, stats dashboard, follow-up reminders',
+        'Job-application tracker built end to end — Google sign-in, per-user Firestore data, stats dashboard, and a Resume Scanner with ATS match scoring',
         'offerbound.vercel.app'),
-      projectLine('Summarist', 'Next.js, TypeScript, Redux, Firebase, Stripe',
-        'Subscription reading app with authentication, state management, and payment integration'),
-      projectLine('Cinegalaxy', 'Next.js, TypeScript, Tailwind CSS',
-        'Movie browsing app with responsive styling and a production Vercel workflow'),
-      projectLine('NFT Marketplace', 'React, Firebase, Axios, React Router',
-        'Marketplace with routing, reusable components, and API-driven data'),
-      projectLine('AI Chat Interface', 'Next.js, TypeScript, Tailwind CSS',
-        'Deployed AI chat interface clone with modern React patterns'),
+      projectLine('ai-chat-interface', 'Next.js, TypeScript, Tailwind CSS, OpenRouter API',
+        'Multi-model chat interface with live token streaming, markdown rendering, and persistent conversations across DeepSeek, Llama, and Gemma'),
+      projectLine('Mini Expense Tracker', 'Express, PostgreSQL, JWT, bcrypt',
+        'Full-stack expense tracker built to go deep on auth — bcrypt hashing, rotating JWT access/refresh tokens, and a one-time-token reset flow',
+        'babyboy198331-coder.github.io/miniexpensetracker'),
 
       // ── ADDITIONAL EXPERIENCE ──
       ...sectionHeader('ADDITIONAL EXPERIENCE'),
-      jobLine('Sandblaster & Monument Installer — Nelson Monument', '2025 – 2026'),
-      bullet('Precision engraving, installation, and quality control under strict deadlines'),
       jobLine('Shop Manager — Shines Kwik Lube', '2018 – 2025'),
       bullet('Managed daily operations, inventory, and customer service; trained and supervised staff'),
-      jobLine('Maintenance Technician — OSU Housing', 'Contract'),
-      bullet('Structural, plumbing, electrical, and cosmetic repairs in residential facilities'),
 
       // ── EDUCATION ──
       ...sectionHeader('EDUCATION'),
