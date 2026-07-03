@@ -5,7 +5,7 @@ export default function Hero({ toggleModal }) {
     <>
       <header className="header">
         <div className="hero__left">
-          <p className="hero__eyebrow">Full-Stack Software Engineer</p>
+          <p className="hero__eyebrow">Frontend Software Engineer</p>
           <h1 className="title">
             <span className="title--outline">Hello,</span>
             <span className="title--accent">I'm John.</span>
@@ -19,7 +19,7 @@ export default function Hero({ toggleModal }) {
             <a href="#projects" className="btn btn--primary" title="Jump to my projects section">View my work</a>
             <button className="btn btn--ghost" onClick={toggleModal} title="Open the contact form to send me a message">Get in touch</button>
             <div className="social__list">
-              <a href="https://www.linkedin.com/in/john-b-1182183ba/" target="_blank" rel="noreferrer" className="social__link click" aria-label="LinkedIn" title="Visit my LinkedIn profile">
+              <a href="https://www.linkedin.com/in/john-bass-1182183ba/" target="_blank" rel="noreferrer" className="social__link click" aria-label="LinkedIn" title="Visit my LinkedIn profile">
                 <i className="fa-brands fa-linkedin-in" aria-hidden="true"></i>
               </a>
               <a href="https://github.com/jbass-dev" target="_blank" rel="noreferrer" className="social__link click" aria-label="GitHub" title="Visit my GitHub profile">
