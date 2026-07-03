@@ -16,7 +16,7 @@ export default function Footer({ toggleModal }) {
               GitHub
             </a>
             <a
-              href="https://www.linkedin.com/in/john-b-1182183ba/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BjlUJRY17SeubkCPaC9c%2BEA%3D%3D"
+              href="https://www.linkedin.com/in/john-bass-1182183ba/"
               target="_blank"
               rel="noreferrer"
               className="footer__social--link link__hover-effect link__hover-effect--white"
