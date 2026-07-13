@@ -9,8 +9,49 @@ export default function Projects() {
           </div>
           <ul className="project__list">
 
-            {/* CRM AI */}
+            {/* BayBoard */}
             <li className="project project--uniform">
+              <div className="project__wrapper">
+                <div className="project__placeholder project__placeholder--screenshot">
+                  <div className="project__screenshot-wrap">
+                    <div className="mockup__browser">
+                      <span></span><span></span><span></span>
+                    </div>
+                    <img
+                      src="/assets/bayboard.png"
+                      alt="BayBoard real-time shop-floor dashboard screenshot"
+                      className="project__screenshot-img"
+                    />
+                  </div>
+                </div>
+                <div className="project__description">
+                  <h3 className="project__description--title">BayBoard</h3>
+                  <h4 className="project__description--sub-title">
+                    Next.js, TypeScript, Firebase/Firestore, Tailwind, Jest &amp; RTL, GitHub Actions, Vercel
+                  </h4>
+                  <p className="project__description--para">
+                    A real-time operations dashboard for quick-lube shops, built
+                    from 7 years of running one. A live Bay Board syncs ticket
+                    moves across the counter tablet and the bay screen through
+                    Firestore listeners; completing a service decrements the
+                    parts it used in a single transaction and fires a low-stock
+                    alert on the board. 62 tests run in CI, and it&apos;s fully
+                    keyboard-operable with a 95 Lighthouse accessibility score.
+                  </p>
+                  <div className="project__description--links">
+                    <a href="https://github.com/jbass-dev/bayboard" target="_blank" rel="noreferrer" className="project__description--link" aria-label="BayBoard GitHub" title="View BayBoard source code on GitHub">
+                      <i className="fa-brands fa-github" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://bayboard.vercel.app" target="_blank" rel="noreferrer" className="project__description--link" aria-label="BayBoard live" title="Open the live BayBoard app">
+                      <i className="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            {/* CRM AI */}
+            <li className="project">
               <div className="project__wrapper">
                 <div className="project__placeholder project__placeholder--screenshot">
                   <div className="project__screenshot-wrap">
